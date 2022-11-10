@@ -54,7 +54,7 @@ const Nav = () => {
                     <a href='#contact' className='ml-10 text-sm uppercase hover:border-b border-gray-800'>Contact</a>
                 </ul>
                 <div onClick={handleNav} className='md:hidden'>
-                    <AiOutlineMenu size={25} />
+                    <AiOutlineMenu size={25} className='cursor-pointer' />
                 </div>
             </div>
             </div>
@@ -99,16 +99,16 @@ const Nav = () => {
                             <p className='uppercase tracking-widest text-[#3fb88e]'>Let's Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn onClick={goLinkedIn}/>
+                                    <FaLinkedinIn onClick={goLinkedIn}  size={25}/>
                                 </div>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaGithub onClick={goGithub}/>
+                                    <FaGithub onClick={goGithub}  size={25}/>
                                 </div>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail />
+                                    <AiOutlineMail  size={25} />
                                 </div>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill />
+                                    <BsFillPersonLinesFill  size={25}/>
                                 </div>
                             </div> 
                         </div>

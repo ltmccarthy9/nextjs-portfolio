@@ -17,22 +17,22 @@ const Contact = () => {
     <div id='contact' className='w-full h-screen text-center'>
     <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-            <h1 className='py-4 text-gray-700'>
+            <h2 className='py-4 text-gray-700'>
                 Contact me at <span className='text-[#3fb88e]'>ltmccarthy9@gmail.com</span>
-            </h1>
+            </h2>
 
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                 <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <FaLinkedinIn onClick={goLinkedIn} />
+                    <FaLinkedinIn onClick={goLinkedIn}  size={25} />
                 </div>
                 <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <FaGithub onClick={goGithub} />
+                    <FaGithub onClick={goGithub}  size={25} />
                 </div>
                 <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <AiOutlineMail/>
+                    <AiOutlineMail  size={25}/>
                 </div>
                 <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <BsFillPersonLinesFill />
+                    <BsFillPersonLinesFill  size={25} />
                 </div>
             </div>
         </div>

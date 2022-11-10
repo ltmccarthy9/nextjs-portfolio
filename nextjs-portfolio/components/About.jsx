@@ -1,11 +1,13 @@
 import React from 'react'
+import Image from 'next/image';
+import profileImg from '../public/assets/liamportfolio.png';
 
 const About = () => {
   return (
     <div className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-            <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
+            <p className='uppercase text-xl tracking-widest text-[#3fb88e]'>About</p>
             <h2 className='py-4'>Who I Am</h2>
             <p className='py-2 text-gray-600'>
             Full stack web developer with a degree in economics. 
@@ -21,7 +23,7 @@ const About = () => {
             </p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center'>
-            <h1>image here</h1>
+            <Image src={profileImg} className='rounded-xl' alt='profile picture'/>
         </div>
       </div>
     </div>

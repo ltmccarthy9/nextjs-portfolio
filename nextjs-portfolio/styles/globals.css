@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+#projects, #skills{
+  position: relative;
+  padding-top: 100px;
+}
+
 @layer base {
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
@@ -23,7 +28,7 @@ html {
     @apply text-3xl sm:text-4xl
   }
 
-  li {
+  li, a {
     @apply cursor-pointer
   }
 

@@ -4,6 +4,16 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Main = () => {
+
+    const goLinkedIn = () => {
+        window.open('https://www.linkedin.com/in/liam-mccarthy-b06b9a218/')
+    };
+
+    const goGithub = () => {
+        window.open('https://github.com/ltmccarthy9')
+    };
+
+
   return (
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
@@ -16,14 +26,14 @@ const Main = () => {
                     A Full-Stack Web Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I'm a full-stack web developer passionate about creating applications with real life utility.
+                    Full-stack web developer passionate about creating applications with real utility.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <FaLinkedinIn />
+                    <div onClick={goLinkedIn} className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <FaLinkedinIn/>
                     </div>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <FaGithub />
+                    <div onClick={goGithub} className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <FaGithub/>
                     </div>
                     <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineMail/>

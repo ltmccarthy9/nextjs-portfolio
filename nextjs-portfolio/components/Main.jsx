@@ -13,6 +13,11 @@ const Main = () => {
         window.open('https://github.com/ltmccarthy9')
     };
 
+    const copyMail = () => {
+        navigator.clipboard.writeText('ltmccarthy9@gmail.com')
+        window.alert('email address copied to clipboard')
+    };
+
 
   return (
     <div id='home' className='w-full h-screen text-center'>
@@ -28,18 +33,15 @@ const Main = () => {
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                     Passionate about creating applications with real utility.
                 </p>
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div onClick={goLinkedIn} className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
+                    <div onClick={goLinkedIn} className='rounded-full shadow-md shadow-gray-400 mx-3 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <FaLinkedinIn color='0077B5' size={25}/>
                     </div>
-                    <div onClick={goGithub} className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                    <div onClick={goGithub} className='rounded-full shadow-md shadow-gray-400 mx-3 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <FaGithub  size={25}/>
                     </div>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <AiOutlineMail color='#3fb88e'  size={25}/>
-                    </div>
-                    <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <BsFillPersonLinesFill color='#3fb88e' size={25} />
+                    <div onClick={copyMail} className='rounded-full shadow-md shadow-gray-400 mx-3 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <AiOutlineMail color='#3fb88e' size={25}/>
                     </div>
                 </div>
             </div>

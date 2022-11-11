@@ -85,7 +85,7 @@ const Nav = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                <FaHome size={30} />
+                                <FaHome color='#3fb88e' size={35} />
                             </Link>
                             <div onClick={handleNav} className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
@@ -123,10 +123,7 @@ const Nav = () => {
                                     <FaGithub onClick={goGithub}  size={25}/>
                                 </div>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail  size={25} />
-                                </div>
-                                <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill  size={25}/>
+                                    <AiOutlineMail color='#3fb88e' size={25} />
                                 </div>
                             </div> 
                         </div>

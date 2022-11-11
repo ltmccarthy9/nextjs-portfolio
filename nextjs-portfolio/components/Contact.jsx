@@ -21,18 +21,12 @@ const Contact = () => {
                 Contact me at <span className='text-[#3fb88e]'>ltmccarthy9@gmail.com</span>
             </h2>
 
-            <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <FaLinkedinIn onClick={goLinkedIn}  size={25} />
+            <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
+                <div className='rounded-full shadow-md mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                    <FaLinkedinIn  color='0077B5' onClick={goLinkedIn}  size={25} />
                 </div>
-                <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <div className='rounded-full shadow-md mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <FaGithub onClick={goGithub}  size={25} />
-                </div>
-                <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <AiOutlineMail  size={25}/>
-                </div>
-                <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                    <BsFillPersonLinesFill  size={25} />
                 </div>
             </div>
         </div>

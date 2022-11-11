@@ -4,7 +4,8 @@
 This is my personal portfolio built with React/Next.js and Tailwind css
 
 ## Live deployed site
-https://nextjs-portfolio-ten-ruby.vercel.app/
+https://nextjs-portfolio-ltmccarthy9.vercel.app/
+
 
 ## Technologies used
 * React/Next.js

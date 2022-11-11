@@ -1,5 +1,5 @@
 import React from 'react';
-import appointmentManager from '../public/assets/appointment.png';
+import appointmentManager from '../public/assets/img/appointment.png';
 import Image from 'next/image';
 
 const appointment = () => {

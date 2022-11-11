@@ -1,5 +1,5 @@
 import React from 'react';
-import ecommerceImg from '../public/assets/ecommerce.png';
+import ecommerceImg from '../public/assets/img/ecommerce.png';
 import Image from 'next/image';
 
 const ecommerce = () => {

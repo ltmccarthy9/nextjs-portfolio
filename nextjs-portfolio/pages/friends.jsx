@@ -1,5 +1,5 @@
 import React from 'react';
-import friendsImg from '../public/assets/friendsfirst.png';
+import friendsImg from '../public/assets/img/friendsfirst.png';
 import Image from 'next/image';
 
 const friends = () => {

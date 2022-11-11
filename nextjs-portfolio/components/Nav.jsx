@@ -4,10 +4,28 @@ import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub, FaHome} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {useRouter} from 'next/router';
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
+    const [navB, setNavB] = useState('#ecf0f3');
+    const [linkColor, setLinkColor] = useState('#1f2937');
+    const router = useRouter()
+
+    useEffect(() => {
+        if (
+            router.asPath === '/appointment' ||
+            router.asPath === '/ecommerce' ||
+            router.asPath === '/friends'
+            ) {
+            setNavB('transparent')
+            setLinkColor('#ecf0f3')
+        } else {
+            setNavB('#ecf0f3')
+            setLinkColor('#1f2937')
+        }
+    }, [router]);
 
     const handleNav = () => {
         setNav(!nav);
@@ -36,22 +54,22 @@ const Nav = () => {
 
     return (
         // large screen nav
-        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+        <div style={{backgroundColor: `${navB}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
                 <FaHome size={40} color='#3fb88e' className='cursor-pointer'/>
             </Link>
             
             <div>
-                <ul className='hidden md:flex'>
+                <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Home</li>
                     </Link>
 
-                    <a href='#about' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>About</a>
-                    <a href='#skills' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Skills</a>
-                    <a href='#projects' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Projects</a>
-                    <a href='#contact' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Contact</a>
+                    <a href='/#about' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>About</a>
+                    <a href='/#skills' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Skills</a>
+                    <a href='/#projects' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Projects</a>
+                    <a href='/#contact' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Contact</a>
                 </ul>
                 <div onClick={handleNav} className='md:hidden'>
                     <AiOutlineMenu size={25} className='cursor-pointer' />

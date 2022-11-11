@@ -1,5 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
+
+
 const Skill = ({skill, icon}) => {
   return (
     <div className='p-6 shadow-md rounded-xl hover:scale-105 ease-in duration-200'>

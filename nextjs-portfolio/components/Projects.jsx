@@ -1,8 +1,8 @@
 import React from 'react'
 import Projitem from './Projitem';
-import appointmentManager from '../public/assets/appointment.png'
-import ecommerce from '../public/assets/ecommerce.png'
-import friendsImg from '../public/assets/friendsfirst.png';
+import appointmentManager from '../public/assets/img/appointment.png'
+import ecommerce from '../public/assets/img/ecommerce.png'
+import friendsImg from '../public/assets/img/friendsfirst.png';
 
 const Projects = () => {
   return (

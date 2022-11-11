@@ -2,6 +2,7 @@ import React from 'react'
 import Projitem from './Projitem';
 import appointmentManager from '../public/assets/appointment.png'
 import ecommerce from '../public/assets/ecommerce.png'
+import friendsImg from '../public/assets/friendsfirst.png';
 
 const Projects = () => {
   return (
@@ -13,17 +14,17 @@ const Projects = () => {
             <Projitem 
             title='Appointment Manager (group)' 
             backgroundImg={appointmentManager} 
-            projectUrl='https://github.com/laurasierra17/appointment-manager' 
+            projectUrl='/appointment' 
             />
             <Projitem 
             title='Ecommerce Backend' 
             backgroundImg={ecommerce} 
-            projectUrl='https://github.com/ltmccarthy9/e-commerce-backend' 
+            projectUrl='/ecommerce' 
             />
             <Projitem 
             title='Friends First' 
-            backgroundImg={ecommerce} 
-            projectUrl='https://github.com/ltmccarthy9/friends-first' 
+            backgroundImg={friendsImg} 
+            projectUrl='/friends' 
             />
             </div>
         </div>

@@ -26,20 +26,20 @@ const Main = () => {
                     A Full-Stack Web Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    passionate about creating applications with real utility.
+                    Passionate about creating applications with real utility.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div onClick={goLinkedIn} className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <FaLinkedinIn size={25}/>
+                        <FaLinkedinIn color='0077B5' size={25}/>
                     </div>
                     <div onClick={goGithub} className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <FaGithub  size={25}/>
                     </div>
                     <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <AiOutlineMail  size={25}/>
+                        <AiOutlineMail color='#3fb88e'  size={25}/>
                     </div>
                     <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <BsFillPersonLinesFill  size={25} />
+                        <BsFillPersonLinesFill color='#3fb88e' size={25} />
                     </div>
                 </div>
             </div>

@@ -39,19 +39,19 @@ const Nav = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-                <FaHome size={30} className='cursor-pointer'/>
+                <FaHome size={40} color='#3fb88e' className='cursor-pointer'/>
             </Link>
             
             <div>
                 <ul className='hidden md:flex'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm uppercase hover:border-b border-gray-800'>Home</li>
+                        <li className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Home</li>
                     </Link>
 
-                    <a href='#about' className='ml-10 text-sm uppercase hover:border-b border-gray-800'>About</a>
-                    <a href='#skills' className='ml-10 text-sm uppercase hover:border-b border-gray-800'>Skills</a>
-                    <a href='#projects' className='ml-10 text-sm uppercase hover:border-b border-gray-800'>Projects</a>
-                    <a href='#contact' className='ml-10 text-sm uppercase hover:border-b border-gray-800'>Contact</a>
+                    <a href='#about' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>About</a>
+                    <a href='#skills' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Skills</a>
+                    <a href='#projects' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Projects</a>
+                    <a href='#contact' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Contact</a>
                 </ul>
                 <div onClick={handleNav} className='md:hidden'>
                     <AiOutlineMenu size={25} className='cursor-pointer' />
@@ -99,7 +99,7 @@ const Nav = () => {
                             <p className='uppercase tracking-widest text-[#3fb88e]'>Let's Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn onClick={goLinkedIn}  size={25}/>
+                                    <FaLinkedinIn color='0077B5' onClick={goLinkedIn}  size={25}/>
                                 </div>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaGithub onClick={goGithub}  size={25}/>

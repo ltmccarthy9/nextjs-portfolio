@@ -19,14 +19,14 @@ const Projects = () => {
             projectUrl='/appointment' 
             />
             <Projitem 
-            title='Ecommerce Backend' 
-            backgroundImg={ecommerce} 
-            projectUrl='/ecommerce' 
-            />
-            <Projitem 
             title='Friends First' 
             backgroundImg={friendsImg} 
             projectUrl='/friends' 
+            />
+            <Projitem 
+            title='Ecommerce Backend' 
+            backgroundImg={ecommerce} 
+            projectUrl='/ecommerce' 
             />
             <Projitem 
             title='Elder Warfare Kart Simulator' 

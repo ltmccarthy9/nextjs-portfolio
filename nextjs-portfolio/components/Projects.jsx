@@ -2,7 +2,7 @@ import React from 'react'
 import Projitem from './Projitem';
 import appointmentManager from '../public/assets/img/appointment.png'
 import ecommerce from '../public/assets/img/ecommerce.png'
-import friendsImg from '../public/assets/img/friendsfirst.png';
+import friendsImg from '../public/assets/img/ff.png';
 import elderImg from '../public/assets/img/elderImg.png';
 
 

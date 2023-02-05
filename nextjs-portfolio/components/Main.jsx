@@ -30,9 +30,6 @@ const Main = () => {
                 <h1 className='py-2 text-gray-700'>
                     A Full-Stack Web Developer
                 </h1>
-                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    Passionate about creating applications with real utility.
-                </p>
                 <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
                     <div onClick={goLinkedIn} className='rounded-full shadow-md shadow-gray-400 mx-3 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <FaLinkedinIn color='0077B5' size={25}/>

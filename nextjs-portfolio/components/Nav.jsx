@@ -33,7 +33,7 @@ const Nav = () => {
 
     useEffect(() => {
         const handleShadow = () => {
-            if (window.scrollY >= 90) {
+            if (window.scrollY >= 100) {
                 setShadow(true)
             } else {
                 setShadow(false)

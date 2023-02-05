@@ -14,7 +14,7 @@ const friends = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={friendsImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'>Friends First</h2>
-            <h3>Reactjs / MongoDB / Mongoose/ Expressjs / Nodejs</h3>
+            <h3>Reactjs / MongoDB / Mongoose/ Expressjs / Nodejs / Firebase</h3>
         </div>
       </div>
 
@@ -22,6 +22,7 @@ const friends = () => {
         <div className='col-span-4'>
             <p className='text-xl tracking-widest uppercase text-[#3fb88e] py-3'>Project Overview</p>
             <p>My take on a dating and friend-making application focused around events and meeting in person first.
+              This is a large scale project that I have been continually working on.
             </p>
             <button onClick={goRepo} className='px-8 py-2 mt-4 hover:scale-110 ease-in duration-200'>Code Repo</button>
         </div>

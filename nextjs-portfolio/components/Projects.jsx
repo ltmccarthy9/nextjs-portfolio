@@ -4,7 +4,7 @@ import appointmentManager from '../public/assets/img/appointment.png'
 import ecommerce from '../public/assets/img/ecommerce.png'
 import friendsImg from '../public/assets/img/ff.png';
 import elderImg from '../public/assets/img/elderImg.png';
-import askanything from '../public/assets/img/askanything.png'
+import askanythingIMG from '../public/assets/img/askanything.png'
 
 const Projects = () => {
   return (
@@ -15,7 +15,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
             <Projitem 
             title='Ask Anything' 
-            backgroundImg={askanything} 
+            backgroundImg={askanythingIMG} 
             projectUrl='/askanything' 
             />
             <Projitem 

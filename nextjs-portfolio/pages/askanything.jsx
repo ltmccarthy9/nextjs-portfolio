@@ -21,7 +21,7 @@ const askanything = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
             <p className='text-xl tracking-widest uppercase text-[#3fb88e] py-3'>Project Overview</p>
-            <p>A place to ask any question you want.  Reciever answers to your question by other users, and post your own comments on other
+            <p>A place to ask any question you want.  Receive answers to your question by other users, and post your own comments on other
                 user's questions.
             </p>
             <button onClick={goRepo} className='px-8 py-2 mt-4 hover:scale-110 ease-in duration-200'>Code Repo</button>

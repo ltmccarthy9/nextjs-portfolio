@@ -1,5 +1,5 @@
 import React from 'react';
-import askanything from '../public/assets/img/askanything.png';
+import askanythingPic from '../public/assets/img/askanything.png';
 import Image from 'next/image';
 
 const askanything = () => {
@@ -11,7 +11,7 @@ const askanything = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={askanything} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={askanythingPic} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'>Friends First</h2>
             <h3>Next.js 13 / PostgreSQL / TypeScript / Prisma / Railway / React Query</h3>

@@ -4,7 +4,7 @@ import appointmentManager from '../public/assets/img/appointment.png'
 import ecommerce from '../public/assets/img/ecommerce.png'
 import friendsImg from '../public/assets/img/ff.png';
 import elderImg from '../public/assets/img/elderImg.png';
-
+import askanything from '../public/assets/img/askanything'
 
 const Projects = () => {
   return (
@@ -13,6 +13,11 @@ const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#3fb88e]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
+            <Projitem 
+            title='Ask Anything' 
+            backgroundImg={askanything} 
+            projectUrl='/askanything' 
+            />
             <Projitem 
             title='Friends First' 
             backgroundImg={friendsImg} 

@@ -21,8 +21,9 @@ const friends = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
             <p className='text-xl tracking-widest uppercase text-[#3fb88e] py-3'>Project Overview</p>
-            <p>My take on a dating and friend-making application focused around events and meeting in person first.
-              This is a large scale project that I have been continually working on.
+            <p>Friends First is the dating/friend-making app that I wished existed, so I made it.  It follows an event-based
+              structure that would partner with businesses to create events.  Find nearby events that you might like to attend,
+              meet new people, and match to stay in contact.
             </p>
             <button onClick={goRepo} className='px-8 py-2 mt-4 hover:scale-110 ease-in duration-200'>Code Repo</button>
         </div>

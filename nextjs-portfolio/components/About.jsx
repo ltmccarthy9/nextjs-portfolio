@@ -10,10 +10,10 @@ const About = () => {
             <p className='uppercase text-xl tracking-widest text-[#3fb88e]'>About</p>
             <h2 className='py-4'>Who I Am</h2>
             <p className='py-2 text-gray-600'>
-            Full stack web developer with an undergraduate degree in economics. 
-            Earned a certificate in full stack web development from a boot camp by the University of California - Berkeley. 
+            Full stack web developer. 
+            Earned a certificate in full stack web development from a boot camp by the University of California - Berkeley last year. 
             I have over a thousand hours of experience building full-stack applications both individually and in teams. 
-            Beyond Javascript and HTML5/CSS, I am experienced in React, Redux, mySQL, mongoDB, 
+            Beyond Javascript and HTML5/CSS, I am experienced in React, Redux, mySQL. postgreSQL, mongoDB, 
             REST APIs, ORMs, git workflow, and more. I am a quick learner with strong 
             analytical skills as well as a deeply creative side. I’m excited to bring my 
             skills and creativity to a forward thinking team to provide better online 

@@ -14,14 +14,14 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <Projitem 
-            title='Ask Anything' 
-            backgroundImg={askanythingIMG} 
-            projectUrl='/askanything' 
-            />
-            <Projitem 
             title='Friends First' 
             backgroundImg={friendsImg} 
             projectUrl='/friends' 
+            />
+            <Projitem 
+            title='Ask Anything' 
+            backgroundImg={askanythingIMG} 
+            projectUrl='/askanything' 
             />
             <Projitem 
             title='Appointment Manager (group)' 

@@ -14,18 +14,18 @@ const Contact = () => {
     };
 
   return (
-    <div id='contact' className='w-full h-screen text-center'>
+    <div id='contact' className='w-full h-screen pb-40 text-center'>
     <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
             <h2 className='py-4 text-gray-700'>
-                Contact me at <span className='text-[#3fb88e]'>ltmccarthy9@gmail.com</span>
+                Contact me at <span className='text-[#c99c53]'>ltmccarthy9@gmail.com</span>
             </h2>
 
             <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
-                <div className='rounded-full shadow-md mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <div className='bg-[#f5f8f8] rounded-full shadow-sm mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <FaLinkedinIn  color='0077B5' onClick={goLinkedIn}  size={25} />
                 </div>
-                <div className='rounded-full shadow-md mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <div className='bg-[#f5f8f8] rounded-full shadow-sm mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <FaGithub onClick={goGithub}  size={25} />
                 </div>
             </div>

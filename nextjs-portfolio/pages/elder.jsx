@@ -4,10 +4,6 @@ import Image from 'next/image';
 
 const elder = () => {
 
-    const goRepo = () => {
-        window.open('https://github.com/lilyannekot/elder-warfare-kart-simulator')
-    }
-
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -19,9 +15,9 @@ const elder = () => {
         </div>
       </div>
 
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-        <div className='col-span-4'>
-            <p className='text-xl tracking-widest uppercase text-[#3fb88e] py-3'>Project Overview</p>
+      <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8'>
+        <div className='w-full'>
+            <p className='text-xl tracking-widest uppercase text-[#c99c53] py-3'>Project Overview</p>
             <p>This was a group project filled with adversity. We started out with four members, 
                 with the goal to create a fun turn based video game. One of our members stopped 
                 responding halfway through the project, then quit altogether with no given reason. 
@@ -31,7 +27,11 @@ const elder = () => {
                   technologies we utilized. I was responsible for the battle page logic as well as a lot of
                    refactoring for the entire application.
             </p>
-            <button onClick={goRepo} className='px-8 py-2 mt-4 hover:scale-110 ease-in duration-200'>Code Repo</button>
+            <ul className='flex mt-6'>
+              <li>
+                <a href='https://github.com/lilyannekot/elder-warfare-kart-simulator' target="_blank" className='px-8 py-2 m-2 text-white rounded-lg bg-gray-600 hover:bg-gray-500 duration-100'>Code Repo</a>
+              </li>
+            </ul>
         </div>
       </div>
     </div>

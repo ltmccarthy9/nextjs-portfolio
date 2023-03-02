@@ -22,7 +22,7 @@ const Nav = () => {
             setNavB('transparent')
             setLinkColor('#ecf0f3')
         } else {
-            setNavB('#ecf0f3')
+            setNavB('#f0f3f5')
             setLinkColor('#1f2937')
         }
     }, [router]);
@@ -57,19 +57,19 @@ const Nav = () => {
         <div style={{backgroundColor: `${navB}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-                <FaHome size={40} color='#3fb88e' className='cursor-pointer'/>
+                <FaHome size={40} color='#c99c53' className='cursor-pointer'/>
             </Link>
             
             <div>
                 <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Home</li>
+                        <li className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Home</li>
                     </Link>
 
-                    <a href='/#about' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>About</a>
-                    <a href='/#skills' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Skills</a>
-                    <a href='/#projects' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Projects</a>
-                    <a href='/#contact' className='ml-10 text-sm uppercase hover:border-b border-gray-500'>Contact</a>
+                    <a href='/#about' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>About</a>
+                    <a href='/#skills' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Skills</a>
+                    <a href='/#projects' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Projects</a>
+                    <a href='/#contact' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Contact</a>
                 </ul>
                 <div onClick={handleNav} className='md:hidden'>
                     <AiOutlineMenu size={25} className='cursor-pointer' />
@@ -80,41 +80,38 @@ const Nav = () => {
             {/* mobile nav */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
                 <div className={nav 
-                    ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' 
-                    : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
+                    ? 'fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-200' 
+                    : 'fixed right-[-100%] top-0 p-10 ease-in duration-200 h-screen'}>
                     <div>
-                        <div className='flex w-full items-center justify-between'>
-                            <Link href='/'>
-                                <FaHome color='#3fb88e' size={35} />
-                            </Link>
-                            <div onClick={handleNav} className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer'>
+                        <div className='flex w-full items-center justify-end'>
+                            <div onClick={handleNav} className='rounded-full p-3 cursor-pointer hover:bg-slate-300'>
                                 <AiOutlineClose />
                             </div>
                         </div>
-                        <div className='border-b border-gray-300 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Let's build something</p>
-                        </div>
                     </div>
-                    <div className='py-4 flex-col'>
-                        <ul className='uppercase'>
+                    <div className='py-4 flex flex-col mt-10'>
+                        <ul className='m-auto'>
                             <Link href='/'>
-                            <li onClick={()=> setNav(false)} className='py-4 text-sm'>Home</li>
+                                <FaHome onClick={()=> setNav(false)} className='mb-4' color='#c99c53' size={40} />
+                            </Link>
+                            <Link href='/'>
+                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Home</li>
                             </Link>
                             <Link href='#about'>
-                            <li onClick={()=> setNav(false)} className='py-4 text-sm'>About</li>
+                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>About</li>
                             </Link>
                             <Link href='/#skills'>
-                            <li onClick={()=> setNav(false)} className='py-4 text-sm'>Skills</li>
+                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Skills</li>
                             </Link>
                             <Link href='/#projects'>
-                            <li onClick={()=> setNav(false)} className='py-4 text-sm'>Project</li>
+                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Project</li>
                             </Link>
-                            <Link href='/#contacts'>
-                            <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact</li>
+                            <Link href='/#contact'>
+                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Contact</li>
                             </Link>
                         </ul>
                         <div className='pt-40'>
-                            <p className='uppercase tracking-widest text-[#3fb88e]'>Let's Connect</p>
+                            <p className='uppercase tracking-widest text-[#c99c53]'>Let's Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaLinkedinIn color='0077B5' onClick={goLinkedIn}  size={25}/>
@@ -123,7 +120,7 @@ const Nav = () => {
                                     <FaGithub onClick={goGithub}  size={25}/>
                                 </div>
                                 <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail color='#3fb88e' size={25} />
+                                    <AiOutlineMail color='#c99c53' size={25} />
                                 </div>
                             </div> 
                         </div>

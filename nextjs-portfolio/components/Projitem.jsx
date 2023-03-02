@@ -6,7 +6,7 @@ const Projitem = ({title, backgroundImg, projectUrl}) => {
   return (
     <div className='transition-all duration-300 relative flex items-center 
     justify-center h-auto w-full shadow-md shadow-gray-500 
-    rounded-xl p-4 group hover:bg-gradient-to-r from-[#3fb88e] to-[#a0dac5]'
+    rounded-xl p-4 group hover:bg-gradient-to-r from-[#eaa536] to-[#c9aa77]'
     >
         <Image className='transition-all duration-300 rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/'/>
             <div className='transition-all duration-300 hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>

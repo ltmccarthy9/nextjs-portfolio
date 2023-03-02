@@ -4,9 +4,6 @@ import Image from 'next/image';
 
 const askanything = () => {
 
-    const goRepo = () => {
-        window.open('https://github.com/ltmccarthy9/askanything')
-    }
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -18,13 +15,20 @@ const askanything = () => {
         </div>
       </div>
 
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-        <div className='col-span-4'>
-            <p className='text-xl tracking-widest uppercase text-[#3fb88e] py-3'>Project Overview</p>
+      <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8'>
+        <div className='w-full'>
+            <p className='text-xl tracking-widest uppercase text-[#c99c53] py-3'>Project Overview</p>
             <p>A place to ask any question you want.  Receive answers to your question by other users, and post your own comments on other
                 user's questions.
             </p>
-            <button onClick={goRepo} className='px-8 py-2 mt-4 hover:scale-110 ease-in duration-200'>Code Repo</button>
+            <ul className='flex mt-6'>
+              <li>
+                <a href='https://github.com/ltmccarthy9/askanything' target="_blank" className='px-8 py-2 m-2 text-white rounded-lg bg-gray-600 hover:bg-gray-500 duration-100'>Code Repo</a>
+              </li>
+              <li>
+                <a href='https://askanything-t4xy.vercel.app/' target="_blank" className='px-8 m-2 py-2 text-white rounded-lg bg-gray-600 hover:bg-gray-500 ease-in duration-100'>Deployed Link</a>
+              </li>
+            </ul>
         </div>
       </div>
     </div>

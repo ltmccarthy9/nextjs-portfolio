@@ -13,8 +13,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#3fb88e]'>Skills</p>
-            <h2 className='py-4'>What I Can Do</h2>
+            <p className='text-2xl tracking-widest uppercase text-[#c99c53] mb-2'>Skills</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
                <Skill skill='Javascript' icon={<SiJavascript size={35}/>} />
                <Skill skill='HTML5' icon={<AiFillHtml5 size={35}/>}/>

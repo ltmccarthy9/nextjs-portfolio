@@ -4,13 +4,6 @@ import Image from 'next/image';
 
 const appointment = () => {
 
-    const goSite = () => {
-        window.open('http://ham-app-manager.herokuapp.com/')
-    }
-
-    const goRepo = () => {
-        window.open('https://github.com/laurasierra17/appointment-manager')
-    }
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -22,17 +15,20 @@ const appointment = () => {
         </div>
       </div>
 
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-        <div className='col-span-4'>
-            <p className='text-xl tracking-widest uppercase text-[#3fb88e] py-3'>Project Overview</p>
+      <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8'>
+        <div className='w-full'>
+            <p className='text-xl tracking-widest uppercase text-[#c99c53] py-3'>Project Overview</p>
             <p>Full stack application of a mock hospital. The user can sign up
                  and login to create, view, and delete appointments at their department
                   of need and their doctor of choice at a specific time. I was responsible 
                   for the login/sign up as well as the appointment creation after selection
                    of a department.
             </p>
-            <button onClick={goSite} className='px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-200'>Deployed Site</button>
-            <button onClick={goRepo} className='px-8 py-2 mt-4 hover:scale-110 ease-in duration-200'>Code Repo</button>
+            <ul className='flex mt-6'>
+              <li>
+                <a href='https://github.com/laurasierra17/appointment-manager' target="_blank" className='px-8 py-2 m-2 text-white rounded-lg bg-gray-600 hover:bg-gray-500 duration-100'>Code Repo</a>
+              </li>
+            </ul>
         </div>
       </div>
     </div>

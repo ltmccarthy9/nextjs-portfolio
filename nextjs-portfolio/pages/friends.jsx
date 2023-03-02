@@ -30,6 +30,9 @@ const friends = () => {
                 <a href='https://github.com/ltmccarthy9/friends-first' target="_blank" className='px-8 py-2 m-2 text-white rounded-lg bg-gray-600 hover:bg-gray-500 duration-100'>Code Repo</a>
               </li>
             </ul>
+            <div className='my-12'>
+              <iframe className='m-auto' width="1280" height="720" src="https://www.youtube.com/embed/AgHvGWZngOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
       </div>
     </div>

@@ -30,13 +30,13 @@ const Main = () => {
                     A Full-Stack Web Developer
                 </h1>
                 <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
-                    <div onClick={goLinkedIn} className='bg-[#f5f8f8] rounded-full shadow-sm shadow-gray-400 mx-3 p-6 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    <div onClick={goLinkedIn} className='bg-[#f5f8f8] rounded-xl shadow-sm shadow-gray-400 mx-3 p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                         <FaLinkedinIn color='0077B5' size={25}/>
                     </div>
-                    <div onClick={goGithub} className='bg-[#f5f8f8] rounded-full shadow-sm shadow-gray-400 mx-3 p-6 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    <div onClick={goGithub} className='bg-[#f5f8f8] rounded-xl shadow-sm shadow-gray-400 mx-3 p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                         <FaGithub  size={25}/>
                     </div>
-                    <div onClick={copyMail} className='bg-[#f5f8f8] rounded-full shadow-sm shadow-gray-400 mx-3 p-6 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    <div onClick={copyMail} className='bg-[#f5f8f8] rounded-xl shadow-sm shadow-gray-400 mx-3 p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                         <AiOutlineMail color='#c99c53' size={25}/>
                     </div>
                 </div>

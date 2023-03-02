@@ -3,7 +3,6 @@ import Projitem from './Projitem';
 import appointmentManager from '../public/assets/img/appointment.png'
 import ecommerce from '../public/assets/img/ecommerce.png'
 import friendsImg from '../public/assets/img/ff.png';
-import elderImg from '../public/assets/img/elderImg.png';
 import askanythingIMG from '../public/assets/img/askanything.png'
 
 const Projects = () => {
@@ -31,11 +30,6 @@ const Projects = () => {
             title='Ecommerce Backend' 
             backgroundImg={ecommerce} 
             projectUrl='/ecommerce' 
-            />
-            <Projitem 
-            title='Elder Warfare Kart Simulator' 
-            backgroundImg={elderImg} 
-            projectUrl='/elder' 
             />
             </div>
         </div>

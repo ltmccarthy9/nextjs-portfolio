@@ -43,14 +43,10 @@ const Nav = () => {
         window.addEventListener('scroll', handleShadow)
     },[])
 
-    const goLinkedIn = () => {
-        window.open('https://www.linkedin.com/in/liam-mccarthy-b06b9a218/')
+    const copyMail = () => {
+        navigator.clipboard.writeText('ltmccarthy9@gmail.com')
+        window.alert('email address copied to clipboard')
     };
-
-    const goGithub = () => {
-        window.open('https://github.com/ltmccarthy9')
-    };
-
 
 
     return (
@@ -72,9 +68,9 @@ const Nav = () => {
                     <a href='/#projects' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Projects</a>
                     <a href='/#contact' className='ml-10 text-sm font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Contact</a>
                 </ul>
-                <div onClick={handleNav} className='md:hidden'>
+                <button type='button' onClick={handleNav} className='md:hidden'>
                     <AiOutlineMenu size={25} className='cursor-pointer' />
-                </div>
+                </button>
             </div>
             </div>
 
@@ -93,7 +89,7 @@ const Nav = () => {
                     <div className='py-4 flex flex-col mt-10'>
                         <ul className='w-full flex flex-col gap-2'>
                             <Link href='/'>
-                                <IoHomeSharp onClick={()=> setNav(false)} className='mx-auto mb-6 hover:scale-105 ease-linear duration-100' color='#c99c53' size={40} />
+                                <IoHomeSharp onClick={()=> setNav(false)} className='mx-auto mb-6 hover:scale-105 ease-linear duration-100' color='#f4af61' size={40} />
                             </Link>
                             <Link href='/'>
                             <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Home</li>
@@ -112,17 +108,17 @@ const Nav = () => {
                             </Link>
                         </ul>
                         <div className='pt-40'>
-                            <p className='uppercase tracking-widest text-[#c99c53]'>Let's Connect</p>
+                            <p className='uppercase tracking-widest text-[#f4af61]'>Let's Connect</p>
                             <div className='flex gap-8 items-center my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-lg bg-[#f5f8f8] shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                                    <FaLinkedinIn color='0077B5' onClick={goLinkedIn}  size={25}/>
-                                </div>
-                                <div className='rounded-lg bg-[#f5f8f8] shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                                    <FaGithub onClick={goGithub}  size={25}/>
-                                </div>
-                                <div className='rounded-lg bg-[#f5f8f8]  shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
+                                <a href='https://www.linkedin.com/in/liam-mccarthy-b06b9a218' target='_blank' className='rounded-lg bg-[#f5f8f8] p-3 cursor-pointer border hover:bg-[#d1d2d2] ease-in duration-100'>
+                                    <FaLinkedinIn color='0077B5' size={25}/>
+                                </a>
+                                <a href='https://github.com/ltmccarthy9' target='_blank' className='rounded-lg bg-[#f5f8f8] p-3 cursor-pointer border hover:bg-[#d1d2d2] ease-in duration-100'>
+                                    <FaGithub  size={25}/>
+                                </a>
+                                <button type='button' onClick={copyMail} className='rounded-lg bg-[#f5f8f8] p-3 cursor-pointer border hover:bg-[#d1d2d2] ease-in duration-100'>
                                     <AiOutlineMail color='#c99c53' size={25} />
-                                </div>
+                                </button>
                             </div> 
                         </div>
                     </div>

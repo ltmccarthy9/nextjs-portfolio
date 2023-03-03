@@ -22,10 +22,10 @@ const Contact = () => {
             </h2>
 
             <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
-                <div className='bg-[#f5f8f8] rounded-xl shadow-sm mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <div className='bg-[#f5f8f8] border rounded-xl  mx-3 p-6 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>
                     <FaLinkedinIn  color='0077B5' onClick={goLinkedIn}  size={25} />
                 </div>
-                <div className='bg-[#f5f8f8] rounded-xl shadow-sm mx-3 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+                <div className='bg-[#f5f8f8] border rounded-xl  mx-3 p-6 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>
                     <FaGithub onClick={goGithub}  size={25} />
                 </div>
             </div>

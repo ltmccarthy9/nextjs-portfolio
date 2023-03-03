@@ -4,7 +4,7 @@ import profileImg from '../public/assets/img/liamportfolio.png';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='w-full h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2 mb-4'>
             <p className='text-2xl tracking-widest uppercase mb-2 text-[#c99c53]'>About</p>

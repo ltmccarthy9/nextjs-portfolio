@@ -54,7 +54,7 @@ const Nav = () => {
 
     return (
         // large screen nav
-        <div style={{backgroundColor: `${navB}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+        <div style={{backgroundColor: `${navB}`}} className={shadow ? 'fixed px-3 w-full h-20 shadow-xl z-[100]' : 'fixed px-3 w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
                 <FaHome size={40} color='#c99c53' className='cursor-pointer'/>
@@ -84,42 +84,42 @@ const Nav = () => {
                     : 'fixed right-[-100%] top-0 p-10 ease-in duration-200 h-screen'}>
                     <div>
                         <div className='flex w-full items-center justify-end'>
-                            <div onClick={handleNav} className='rounded-full p-3 cursor-pointer hover:bg-slate-300'>
+                            <div onClick={handleNav} className='rounded-full p-3 cursor-pointer hover:bg-[#d6dcdf] ease-linear duration-100'>
                                 <AiOutlineClose />
                             </div>
                         </div>
                     </div>
                     <div className='py-4 flex flex-col mt-10'>
-                        <ul className='m-auto'>
+                        <ul className='w-full flex flex-col gap-2'>
                             <Link href='/'>
-                                <FaHome onClick={()=> setNav(false)} className='mb-4' color='#c99c53' size={40} />
+                                <FaHome onClick={()=> setNav(false)} className='mx-auto mb-6 hover:scale-105 ease-linear duration-100' color='#c99c53' size={40} />
                             </Link>
                             <Link href='/'>
-                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Home</li>
+                            <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Home</li>
                             </Link>
                             <Link href='#about'>
-                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>About</li>
+                            <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>About</li>
                             </Link>
                             <Link href='/#skills'>
-                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Skills</li>
+                            <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Skills</li>
                             </Link>
                             <Link href='/#projects'>
-                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Project</li>
+                            <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Project</li>
                             </Link>
                             <Link href='/#contact'>
-                            <li onClick={()=> setNav(false)} className='py-6 text-sm text-gray-700 font-bold'>Contact</li>
+                            <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Contact</li>
                             </Link>
                         </ul>
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-[#c99c53]'>Let's Connect</p>
-                            <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <div className='flex gap-8 items-center my-4 w-full sm:w-[80%]'>
+                                <div className='rounded-lg bg-[#f5f8f8] shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
                                     <FaLinkedinIn color='0077B5' onClick={goLinkedIn}  size={25}/>
                                 </div>
-                                <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='rounded-lg bg-[#f5f8f8] shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
                                     <FaGithub onClick={goGithub}  size={25}/>
                                 </div>
-                                <div className='rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='rounded-lg bg-[#f5f8f8]  shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
                                     <AiOutlineMail color='#c99c53' size={25} />
                                 </div>
                             </div> 

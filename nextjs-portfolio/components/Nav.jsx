@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub, FaHome} from 'react-icons/fa';
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { IoHomeSharp } from 'react-icons/io5'
 import {useRouter} from 'next/router';
 
 const Nav = () => {
@@ -57,7 +57,7 @@ const Nav = () => {
         <div style={{backgroundColor: `${navB}`}} className={shadow ? 'fixed px-3 w-full h-20 shadow-xl z-[100]' : 'fixed px-3 w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-                <FaHome size={40} color='#c99c53' className='cursor-pointer'/>
+                <IoHomeSharp size={40} color='#c99c53' className='cursor-pointer'/>
             </Link>
             
             <div>
@@ -92,7 +92,7 @@ const Nav = () => {
                     <div className='py-4 flex flex-col mt-10'>
                         <ul className='w-full flex flex-col gap-2'>
                             <Link href='/'>
-                                <FaHome onClick={()=> setNav(false)} className='mx-auto mb-6 hover:scale-105 ease-linear duration-100' color='#c99c53' size={40} />
+                                <IoHomeSharp onClick={()=> setNav(false)} className='mx-auto mb-6 hover:scale-105 ease-linear duration-100' color='#c99c53' size={40} />
                             </Link>
                             <Link href='/'>
                             <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Home</li>

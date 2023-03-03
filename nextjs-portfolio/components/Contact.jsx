@@ -18,7 +18,7 @@ const Contact = () => {
     <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
             <h2 className='py-4 text-gray-700'>
-                Contact me at <span className='text-[#c99c53]'>ltmccarthy9@gmail.com</span>
+                Contact me at <span className='text-[#f4af61]'>ltmccarthy9@gmail.com</span>
             </h2>
 
             <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>

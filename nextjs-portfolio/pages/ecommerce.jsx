@@ -17,7 +17,7 @@ const ecommerce = () => {
 
       <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8'>
         <div className='w-full'>
-            <p className='text-xl tracking-widest uppercase text-[#c99c53] py-3'>Project Overview</p>
+            <p className='text-xl tracking-widest uppercase text-[#f4af61] py-3'>Project Overview</p>
             <p>Backend, command line application of a mock Ecommerce database. Create, update, and delete items in the database.
             </p>
             <ul className='flex mt-6'>

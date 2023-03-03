@@ -24,7 +24,7 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <h1 className='py-4 text-gray-700'>
-                    Hi, I'm <span className='text-[#c99c53]'>Liam.</span>
+                    Hi, I'm <span className='text-[#f4af61]'>Liam.</span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>
                     A Full-Stack Web Developer
@@ -37,7 +37,7 @@ const Main = () => {
                         <FaGithub  size={25}/>
                     </div>
                     <div onClick={copyMail} className='bg-[#f5f8f8] rounded-xl shadow-sm shadow-gray-400 mx-3 p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
-                        <AiOutlineMail color='#c99c53' size={25}/>
+                        <AiOutlineMail color='#f4af61' size={25}/>
                     </div>
                 </div>
             </div>

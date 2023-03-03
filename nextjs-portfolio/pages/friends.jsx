@@ -24,6 +24,11 @@ const friends = () => {
             <p>Friends First is the dating/friend-making app that I wished existed, so I made it.  It follows an event-based
               structure that would partner with businesses to create events.  Find nearby events that you might like to attend,
               meet new people, and match to stay in contact.
+        <br></br><br></br>
+              IMPORTANT: For anyone wondering why this is not deployed. Friends First
+              is structured around the existence of events created by a partnership between Friends First, ie: me at the moment, and the business that wants to host the 
+              event. Until that becomes a reality, I'm not going to deploy it. Events are the integral part of the application; 
+              I do not want to deploy it with fake events that I would have to personally continue posting.
             </p>
             <ul className='flex mt-6'>
               <li>

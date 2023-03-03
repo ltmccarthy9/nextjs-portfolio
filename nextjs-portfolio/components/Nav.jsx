@@ -17,7 +17,8 @@ const Nav = () => {
         if (
             router.asPath === '/appointment' ||
             router.asPath === '/ecommerce' ||
-            router.asPath === '/friends'
+            router.asPath === '/friends' ||
+            router.asPath === '/askanything'
             ) {
             setNavB('transparent')
             setLinkColor('#ecf0f3')
@@ -63,13 +64,13 @@ const Nav = () => {
             <div>
                 <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Home</li>
+                        <li className='ml-10 text-sm font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Home</li>
                     </Link>
 
-                    <a href='/#about' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>About</a>
-                    <a href='/#skills' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Skills</a>
-                    <a href='/#projects' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Projects</a>
-                    <a href='/#contact' className='ml-10 text-sm text-gray-700 font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Contact</a>
+                    <a href='/#about' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>About</a>
+                    <a href='/#skills' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Skills</a>
+                    <a href='/#projects' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Projects</a>
+                    <a href='/#contact' className='ml-10 text-sm font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Contact</a>
                 </ul>
                 <div onClick={handleNav} className='md:hidden'>
                     <AiOutlineMenu size={25} className='cursor-pointer' />

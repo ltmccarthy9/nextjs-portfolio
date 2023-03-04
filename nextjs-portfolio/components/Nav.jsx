@@ -77,10 +77,10 @@ const Nav = () => {
             {/* mobile nav */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
                 <div className={nav 
-                    ? 'fixed right-0 top-0 w-[55%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-200' 
-                    : 'fixed right-[-100%] top-0 p-10 ease-in duration-300 h-screen'}>
+                    ? 'fixed right-0 top-0 w-[55%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-4 ease-in duration-200' 
+                    : 'fixed right-[-100%] top-0 p-4 ease-in duration-300 h-screen'}>
                     <div>
-                        <div className='flex w-full items-center justify-end'>
+                        <div className='flex w-full items-center justify-start'>
                             <div onClick={handleNav} className='rounded-full p-3 cursor-pointer hover:bg-[#d6dcdf] ease-in duration-300'>
                                 <AiOutlineClose />
                             </div>
@@ -109,7 +109,7 @@ const Nav = () => {
                         </ul>
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-[#f4af61]'>Let's Connect</p>
-                            <div className='flex gap-8 items-center my-4 w-full sm:w-[80%]'>
+                            <div className='flex gap-2 items-center my-4 w-full sm:w-[80%]'>
                                 <a href='https://www.linkedin.com/in/liam-mccarthy-b06b9a218' target='_blank' className='rounded-lg bg-[#f5f8f8] p-3 cursor-pointer border hover:bg-[#d1d2d2] ease-in duration-100'>
                                     <FaLinkedinIn color='0077B5' size={25}/>
                                 </a>

@@ -36,7 +36,7 @@ const friends = () => {
               </li>
             </ul>
             <div className='my-12'>
-              <iframe className='m-auto' width="1280" height="720" src="https://www.youtube.com/embed/PNmRBSeis2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe className='m-auto' width="370 sm:1280" height="500 sm:720" src="https://www.youtube.com/embed/PNmRBSeis2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
       </div>

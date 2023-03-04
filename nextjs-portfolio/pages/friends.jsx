@@ -11,7 +11,7 @@ const friends = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={friendsImg} alt='/' />
+        <Image className='absolute z-1' fill='fill' src={friendsImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'>Friends First</h2>
             <h3>Reactjs / MongoDB / Mongoose/ Expressjs / Nodejs / Firebase</h3>
@@ -36,7 +36,7 @@ const friends = () => {
               </li>
             </ul>
             <div className='my-12'>
-              <iframe className='m-auto' width="370 sm:1280" height="500 sm:720" src="https://www.youtube.com/embed/PNmRBSeis2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe className='m-auto' width="370" height="500" src="https://www.youtube.com/embed/PNmRBSeis2Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
         </div>
       </div>

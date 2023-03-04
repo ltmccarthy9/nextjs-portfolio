@@ -107,7 +107,7 @@ const Nav = () => {
                             <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Contact</li>
                             </Link>
                         </ul>
-                        <div className='pt-40'>
+                        <div className='pt-20'>
                             <p className='uppercase tracking-widest text-[#f4af61]'>Let's Connect</p>
                             <div className='flex gap-2 items-center my-4 w-full sm:w-[80%]'>
                                 <a href='https://www.linkedin.com/in/liam-mccarthy-b06b9a218' target='_blank' className='rounded-lg bg-[#f5f8f8] p-3 cursor-pointer border hover:bg-[#d1d2d2] ease-in duration-100'>

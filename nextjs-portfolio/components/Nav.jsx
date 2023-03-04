@@ -68,7 +68,7 @@ const Nav = () => {
                     <a href='/#projects' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Projects</a>
                     <a href='/#contact' className='ml-10 text-sm font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Contact</a>
                 </ul>
-                <button type='button' onClick={handleNav} className='md:hidden'>
+                <button type='button' onClick={handleNav} className='md:hidden hover:scale-110 ease-in duration-100'>
                     <AiOutlineMenu size={25} className='cursor-pointer' />
                 </button>
             </div>
@@ -77,11 +77,11 @@ const Nav = () => {
             {/* mobile nav */}
             <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
                 <div className={nav 
-                    ? 'fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-200' 
-                    : 'fixed right-[-100%] top-0 p-10 ease-in duration-200 h-screen'}>
+                    ? 'fixed right-0 top-0 w-[55%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-200' 
+                    : 'fixed right-[-100%] top-0 p-10 ease-in duration-300 h-screen'}>
                     <div>
                         <div className='flex w-full items-center justify-end'>
-                            <div onClick={handleNav} className='rounded-full p-3 cursor-pointer hover:bg-[#d6dcdf] ease-linear duration-100'>
+                            <div onClick={handleNav} className='rounded-full p-3 cursor-pointer hover:bg-[#d6dcdf] ease-in duration-300'>
                                 <AiOutlineClose />
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const Nav = () => {
                             <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Skills</li>
                             </Link>
                             <Link href='/#projects'>
-                            <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Project</li>
+                            <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Projects</li>
                             </Link>
                             <Link href='/#contact'>
                             <li onClick={()=> setNav(false)} className='py-4 text-center text-sm rounded-lg w-full text-gray-700 font-bold hover:bg-[#d6dcdf] ease-linear duration-100'>Contact</li>

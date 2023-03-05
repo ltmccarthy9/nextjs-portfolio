@@ -108,7 +108,7 @@ const Nav = () => {
                             </Link>
                         </ul>
                         <div className='pt-20'>
-                            <p className='uppercase tracking-widest text-amber-500'>Let's Connect</p>
+                            <p className='uppercase tracking-widest text-red-400'>Let's Connect</p>
                             <div className='flex gap-2 items-center my-4 w-full sm:w-[80%]'>
                                 <a href='https://www.linkedin.com/in/liam-mccarthy-b06b9a218' target='_blank' className='rounded-lg bg-[#f5f8f8] p-3 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-100'>
                                     <FaLinkedinIn color='0077B5' size={25}/>
@@ -117,7 +117,7 @@ const Nav = () => {
                                     <FaGithub  size={25}/>
                                 </a>
                                 <button type='button' onClick={copyMail} className='rounded-lg bg-[#f5f8f8] p-3 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-100'>
-                                    <AiOutlineMail color='#ffb300' size={25} />
+                                    <AiOutlineMail color='#ef5350' size={25} />
                                 </button>
                             </div> 
                         </div>

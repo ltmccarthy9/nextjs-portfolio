@@ -17,7 +17,7 @@ const appointment = () => {
 
       <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8'>
         <div className='w-full'>
-            <p className='text-xl tracking-widest uppercase text-amber-500 py-3'>Project Overview</p>
+            <p className='text-xl tracking-widest uppercase text-red-400 py-3'>Project Overview</p>
             <p>Full stack application of a mock hospital. The user can sign up
                  and login to create, view, and delete appointments at their department
                   of need and their doctor of choice at a specific time. I was responsible 

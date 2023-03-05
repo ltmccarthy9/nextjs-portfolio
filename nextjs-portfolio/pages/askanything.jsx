@@ -17,7 +17,7 @@ const askanything = () => {
 
       <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8 z-20'>
         <div className='w-full'>
-            <p className='text-xl tracking-widest uppercase text-amber-500 py-3'>Project Overview</p>
+            <p className='text-xl tracking-widest uppercase text-red-400 py-3'>Project Overview</p>
             <p>A place to ask any question you want.  Receive answers to your question by other users, and post your own comments on other
                 user's questions.
             </p>

@@ -11,7 +11,14 @@ const askanything = () => {
         <Image className='absolute object-cover z-1' fill  src={askanythingPic} alt='ask anything picture' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'>Ask Anything</h2>
-            <h3>Next.js 13 / PostgreSQL / TypeScript / Prisma / Railway / React Query</h3>
+            <div className='flex flex-wrap text-gray-700  gap-1'>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs'>Next.js 13</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium  w-fit text-xs '>PostgreSQL</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg  font-medium w-fit text-xs '>TypeScript</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs '>Prisma</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs '>React Query</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs'>NextAuth</h3>
+            </div>
         </div>
       </div>
 

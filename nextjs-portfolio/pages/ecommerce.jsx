@@ -11,7 +11,13 @@ const ecommerce = () => {
         <Image className='absolute object-cover z-1' fill src={ecommerceImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'>Ecommerce Backend</h2>
-            <h3>JavaScript / Express / MySQL / Sequelize</h3>
+            <div className='flex flex-wrap text-gray-700  gap-1'>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs'>JavaScript</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium  w-fit text-xs '>MySQL</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs '>Node.js</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs '>Express.js</h3>
+            <h3 className='bg-red-300 p-1 rounded-lg font-medium w-fit text-xs '>Sequelize</h3>
+            </div>
         </div>
       </div>
 

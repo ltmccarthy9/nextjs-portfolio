@@ -8,14 +8,14 @@ const askanything = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
-        <Image className='absolute z-1' fill='fill' src={askanythingPic} alt='/' />
+        <Image className='absolute object-cover z-1' fill  src={askanythingPic} alt='ask anything picture' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'>Ask Anything</h2>
             <h3>Next.js 13 / PostgreSQL / TypeScript / Prisma / Railway / React Query</h3>
         </div>
       </div>
 
-      <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8'>
+      <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8 z-20'>
         <div className='w-full'>
             <p className='text-xl tracking-widest uppercase text-[#f4af61] py-3'>Project Overview</p>
             <p>A place to ask any question you want.  Receive answers to your question by other users, and post your own comments on other

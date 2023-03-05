@@ -5,29 +5,22 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Contact = () => {
 
-    const goLinkedIn = () => {
-        window.open('https://www.linkedin.com/in/liam-mccarthy-b06b9a218/')
-    };
-
-    const goGithub = () => {
-        window.open('https://github.com/ltmccarthy9')
-    };
 
   return (
     <div id='contact' className='w-full h-screen pb-40 text-center'>
     <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
             <h2 className='py-4 text-gray-700'>
-                Contact me at <span className='text-[#f4af61]'>ltmccarthy9@gmail.com</span>
+                Contact me at <span className='text-amber-500'>ltmccarthy9@gmail.com</span>
             </h2>
 
             <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
-                <div className='bg-[#f5f8f8] border rounded-xl  mx-3 p-6 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>
-                    <FaLinkedinIn  color='0077B5' onClick={goLinkedIn}  size={25} />
-                </div>
-                <div className='bg-[#f5f8f8] border rounded-xl  mx-3 p-6 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>
-                    <FaGithub onClick={goGithub}  size={25} />
-                </div>
+                <a href='https://www.linkedin.com/in/liam-mccarthy-b06b9a218' target='_blank' className='bg-[#f5f8f8] border rounded-xl  mx-3 p-6 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>
+                    <FaLinkedinIn  color='0077B5' size={25} />
+                </a>
+                <a href='https://github.com/ltmccarthy9' target='_blank' className='bg-[#f5f8f8] border rounded-xl  mx-3 p-6 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>
+                    <FaGithub  size={25} />
+                </a>
             </div>
         </div>
     </div>

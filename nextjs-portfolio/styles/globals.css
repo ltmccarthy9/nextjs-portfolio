@@ -13,7 +13,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#f0f3f5] tracking-wide
+    @apply bg-[#edeff0] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -31,4 +31,17 @@ html {
   li, a {
     @apply cursor-pointer
   }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

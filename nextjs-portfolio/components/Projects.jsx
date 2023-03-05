@@ -8,8 +8,8 @@ import askanythingIMG from '../public/assets/img/askanything.png'
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16'>
-            <p className='text-2xl tracking-widest uppercase text-[#f4af61] mb-2'>Projects</p>
+        <div className='max-w-[1240px] mx-auto p-4 py-16'>
+            <p className='text-2xl tracking-tight mb-4 text-gray-100 p-2 w-fit rounded-lg bg-gray-700'>My Projects</p>
             <div className='grid md:grid-cols-2 gap-8'>
             <Projitem 
             title='Friends First' 

@@ -20,7 +20,7 @@ const friends = () => {
 
       <div className='max-w-[1240px] flex flex-col mx-auto p-2 pt-8'>
         <div className='w-full'>
-            <p className='text-xl tracking-widest uppercase text-[#f4af61] py-3'>Project Overview</p>
+            <p className='text-xl tracking-widest uppercase text-amber-500 py-3'>Project Overview</p>
             <p>Friends First is the dating/friend-making app that I wished existed, so I made it.  It follows an event-based
               structure that would partner with businesses to create events.  Find nearby events that you might like to attend,
               meet new people, and match to stay in contact.

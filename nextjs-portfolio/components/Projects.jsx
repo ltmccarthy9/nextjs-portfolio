@@ -4,6 +4,7 @@ import appointmentManager from '../public/assets/img/appointment.png'
 import ecommerce from '../public/assets/img/ecommerce.png'
 import friendsImg from '../public/assets/img/ff.png';
 import askanythingIMG from '../public/assets/img/askanything.png'
+import wtfdPic from '../public/assets/img/wtfd.png'
 
 const Projects = () => {
   return (
@@ -15,6 +16,11 @@ const Projects = () => {
             title='Friends First' 
             backgroundImg={friendsImg} 
             projectUrl='/friends' 
+            />
+             <Projitem 
+            title='What The Fam Doing?' 
+            backgroundImg={wtfdPic} 
+            projectUrl='/wtfd' 
             />
             <Projitem 
             title='Ask Anything' 

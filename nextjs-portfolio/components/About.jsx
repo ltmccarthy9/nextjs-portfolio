@@ -9,7 +9,7 @@ const About = () => {
         <div className='col-span-2 mb-4'>
             <h2 className='text-3xl tracking-tight mb-2 text-gray-700 w-fit p-2 '>About Me</h2>
             <p className=' text-gray-600 px-1'>
-            Web developer with a year of experience developing full-stack applications.  
+            Web developer with a year of experience developing full-stack, frontend, and backend applications.  
             Skilled in JavaScript/TypeScript, HTML, CSS, Node.js, React, SQL/noSQL databases, 
             and many other frameworks and technologies. Passionate about creating applications that solve real problems, and of 
             course, some bits and goofs.

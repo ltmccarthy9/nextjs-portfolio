@@ -18,7 +18,8 @@ const Nav = () => {
             router.asPath === '/appointment' ||
             router.asPath === '/ecommerce' ||
             router.asPath === '/friends' ||
-            router.asPath === '/askanything'
+            router.asPath === '/askanything' ||
+            router.asPath === '/wtfd'
             ) {
             setNavB('transparent')
             setLinkColor('#ecf0f3')

@@ -9,12 +9,11 @@ const About = () => {
         <div className='col-span-2 mb-4'>
             <h2 className='text-3xl tracking-tight mb-2 text-gray-700 w-fit p-2 '>About Me</h2>
             <p className=' text-gray-600 px-1'>
-            Web developer with over 2000 hours of experience developing full-stack applications.  
+            Web developer with a year of experience developing full-stack applications.  
             Skilled in JavaScript/TypeScript, HTML, CSS, Node.js, React, SQL/noSQL databases, 
-            and many other frameworks and technologies.  Intuitive problem solver with a close 
-            attention to detail.  Deeply passionate about creating applications that solve real problems.
-             I am excited to bring my 
-            strengths to a forward thinking, thoughtful, and collaborative team.
+            and many other frameworks and technologies. Passionate about creating applications that solve real problems, and of 
+            course, some bits and goofs.
+             I am excited to bring my strengths to a forward thinking and collaborative team.
             </p>
         </div>
         <div className='w-fit h-fit m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center'>

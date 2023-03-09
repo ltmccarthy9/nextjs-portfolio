@@ -55,7 +55,7 @@ const Nav = () => {
         <div style={{backgroundColor: `${navB}`}} className={shadow ? 'fixed px-3 w-full h-20 shadow-md z-[100]' : 'fixed px-3 w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-                <IoHomeSharp size={35} color='#424242' className='cursor-pointer'/>
+                <IoHomeSharp size={35} color={`${linkColor}`} className='cursor-pointer'/>
             </Link>
             
             <div>

@@ -23,9 +23,7 @@ const wtfd = () => {
         <div className='w-full'>
             <p className='text-xl tracking-widest uppercase text-red-400 py-3'>Project Overview</p>
             <p>
-                Landing page for a social media that is specifically for staying connected with your family.  We all know
-                multiple social media platforms have been taken over by the elder generations, but they aren't serving their original goal,
-                to keep the family connected.
+                A landing page for a social media application that is specifically designed for staying connected with your family.
             </p>
             <ul className='flex mt-6'>
               <li>

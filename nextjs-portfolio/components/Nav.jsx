@@ -59,9 +59,9 @@ const Nav = () => {
             </Link>
             
             <div>
-                <div style={{color: `${linkColor}`}} className='hidden md:flex gap-6'>
+                <div style={{color: `${linkColor}`}} className='hidden md:flex gap-3'>
                     <Link href='/'>
-                        <p className='p-2 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Home</p>
+                        <p className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Home</p>
                     </Link>
                     <a href='/#about' className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>About</a>
                     <a href='/#skills' className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Skills</a>

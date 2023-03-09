@@ -55,20 +55,19 @@ const Nav = () => {
         <div style={{backgroundColor: `${navB}`}} className={shadow ? 'fixed px-3 w-full h-20 shadow-md z-[100]' : 'fixed px-3 w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-                <IoHomeSharp size={35} color={`${linkColor}`} className='cursor-pointer'/>
+                <IoHomeSharp size={35} color={`${linkColor}`} className='cursor-pointer hover:scale-110 ease-in duration-100'/>
             </Link>
             
             <div>
-                <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
+                <div style={{color: `${linkColor}`}} className='hidden md:flex gap-6'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Home</li>
+                        <p className='p-2 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Home</p>
                     </Link>
-
-                    <a href='/#about' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>About</a>
-                    <a href='/#skills' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Skills</a>
-                    <a href='/#projects' className='ml-10 text-sm  font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Projects</a>
-                    <a href='/#contact' className='ml-10 text-sm font-bold hover:border-b ease-in duration-150 hover:border-gray-500'>Contact</a>
-                </ul>
+                    <a href='/#about' className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>About</a>
+                    <a href='/#skills' className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Skills</a>
+                    <a href='/#projects' className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Projects</a>
+                    <a href='/#contact' className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Contact</a>
+                </div>
                 <button type='button' onClick={handleNav} className='md:hidden hover:scale-110 ease-in duration-100'>
                     <AiOutlineMenu size={25} className='cursor-pointer' />
                 </button>

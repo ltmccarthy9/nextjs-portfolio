@@ -22,7 +22,7 @@ const Main = () => {
                     A Full-Stack Web Developer.
                 </h1>
                 <div className='flex items-center justify-center max-w-[330px] m-auto py-4'>
-                    <a href='https://www.linkedin.com/in/liam-mccarthy-b06b9a218' target='_blank' className='bg-[#f8fafa] rounded-xl mx-3 p-4 cursor-pointer hover:bg-gray-200 ease-in duration-200'>
+                    <a href='https://www.linkedin.com/in/liam-mccarthy-b06b9a218' target='_blank' className='bg-[#f8fafa] rounded-xl mx-3 p-4 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>
                         <FaLinkedinIn color='0077B5' size={25}/>
                     </a>
                     <a href='https://github.com/ltmccarthy9' target='_blank' className='bg-[#f8fafa] rounded-xl mx-3 p-4 cursor-pointer hover:bg-[#d1d2d2] ease-in duration-200'>

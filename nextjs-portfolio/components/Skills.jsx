@@ -13,8 +13,12 @@ const Skills = () => {
   return (
     <div className='w-full lg:h-screen px-2 py-2 pb-72'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full p-4'>
+<<<<<<< HEAD
         <span className='anchor-skill' id='skills'></span>
         <h2 className='text-3xl tracking-tight mb-2 text-gray-700 w-fit p-2 '>My Skills</h2>
+=======
+        <h2 id='skills' className='text-3xl tracking-tight mb-2 text-gray-700 w-fit p-2 '>My Skills</h2>
+>>>>>>> 3e9b5cdf4d0e49817b9322ad5ebf3e3459dc8117
             <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2'>
                <Skill skill='Javascript' icon={<SiJavascript className='bg-[#323330]' color='#F0DB4F' size={35}/>} />
                <Skill skill='Typescript' icon={<SiTypescript className='bg-[#ffffff]' color='#007acc' size={35} />} />

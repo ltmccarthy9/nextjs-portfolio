@@ -11,8 +11,7 @@ const About = () => {
             <p className=' text-gray-600 px-1'>
             Web developer with a year of experience developing full-stack, frontend, and backend applications.  
             Skilled in JavaScript/TypeScript, HTML, CSS, Node.js, React, SQL/noSQL databases, 
-            and many other frameworks and technologies. Passionate about creating applications that solve real problems, and of 
-            course, some bits and goofs.
+            and many other frameworks and technologies. Passionate about creating fun, easy to use applications that I wished existed.
              I am excited to bring my strengths to a forward thinking and collaborative team.
             </p>
         </div>

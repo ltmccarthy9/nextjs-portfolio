@@ -32,19 +32,19 @@ const friends = () => {
               structure that would partner with businesses to create events.  Find nearby events that you might like to attend,
               meet new people, and match to stay in contact.
         <br></br><br></br>
-              IMPORTANT: For anyone wondering why this is not deployed. Friends First
-              is structured around the existence of events created by a partnership between Friends First, ie: me at the moment, and the business that wants to host the 
-              event. Until that becomes a reality, I'm not going to deploy it. Events are the integral part of the application; 
-              I do not want to deploy it with fake events that I would have to personally continue posting.
+              Deployment: Friends First is structured around the existence of events created by a partnership between Friends First, ie: me at the moment, and the business that wants to host the 
+              event. Until that becomes a working reality, I'm not going to deploy. Events are the integral part of the application; 
+              I do not want people showing up to the site with no events and/or mock events.
             </p>
             <ul className='flex mt-6'>
               <li>
                 <a href='https://github.com/ltmccarthy9/friends-first' target="_blank" className='px-8 py-2 m-2 text-white rounded-lg bg-gray-600 hover:bg-gray-500 duration-100'>Code Repo</a>
               </li>
             </ul>
-            <div className='my-12'>
-            <iframe className='m-auto' width="370" height="400" src="https://www.youtube.com/embed/RLdI5ZjYOTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            
+            <h2 className='text-gray-700 text-2xl mt-6 mb-2'>Code Breakdown & Demo</h2>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/qda-5_52cLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
         </div>
       </div>
     </div>

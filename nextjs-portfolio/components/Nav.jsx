@@ -70,7 +70,7 @@ const Nav = () => {
                     <a href='/#contact' className='py-2 px-4 rounded-md text-sm font-bold hover:bg-red-400 hover:text-gray-50 ease-in duration-150'>Contact</a>
                 </div>
                 <button type='button' onClick={handleNav} className='md:hidden hover:scale-110 ease-in duration-100'>
-                    <AiOutlineMenu size={25} className='cursor-pointer' />
+                    <AiOutlineMenu size={25}color={`${linkColor}`} className='cursor-pointer' />
                 </button>
             </div>
             </div>

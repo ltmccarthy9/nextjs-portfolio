@@ -11,7 +11,7 @@ const Projects = () => {
     <div className='w-full'>
         <div className='max-w-[1240px] mx-auto p-4 py-16'>
         <h2 id='projects'  className='text-3xl tracking-tight mb-2 text-gray-700 w-fit p-2 '>My Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8'>
+            <div className='grid md:grid-cols-3 gap-4'>
             <Projitem 
             title='Friends First' 
             backgroundImg={friendsImg} 

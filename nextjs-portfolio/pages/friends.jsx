@@ -43,7 +43,7 @@ const friends = () => {
             </ul>
             
             <h2 className='text-gray-700 text-2xl mt-6 mb-2'>Code Breakdown & Demo</h2>
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/qda-5_52cLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/qda-5_52cLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
         </div>
       </div>

@@ -4,9 +4,7 @@ import Image from 'next/image';
 
 const friends = () => {
 
-    const goRepo = () => {
-        window.open('https://github.com/ltmccarthy9/friends-first')
-    }
+  
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
